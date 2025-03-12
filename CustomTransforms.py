@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 import imutils
 
-
+#Reflects the image multiple times until the expected input dimensions are satisfied
 class ReflectPad(torch.nn.Module):
 
     def __init__(self, target_image_width, target_image_height ):
